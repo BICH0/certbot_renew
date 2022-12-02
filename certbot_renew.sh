@@ -1,3 +1,5 @@
+#!/bin/bash
+mail="" #insert your mail
 logfile="/tmp/certrenew.log"
 service="" #leave empty to autoselect service from port 80/443
 if [[ $(whoami) != "root" ]]
